@@ -1,0 +1,10 @@
+# PyTorch is installed separately so you can pick the backend-specific wheel:
+#
+#   AMD ROCm (Linux):   pip install torch --index-url https://download.pytorch.org/whl/rocm6.2
+#   NVIDIA CUDA:        pip install torch --index-url https://download.pytorch.org/whl/cu124
+#   CPU only:           pip install torch --index-url https://download.pytorch.org/whl/cpu
+#
+# See the README for the current ROCm wheel URL.
+
+numpy>=1.24
+pytest>=7.4
